@@ -10,12 +10,26 @@ import lombok.Data;
 @Data
 public class Notes {
 
-	@Id
-	@GeneratedValue
-	private Long id;
-	
-	@Lob
-	private String content;
-	
-	private String ownerUsername;
+    @Id
+    @GeneratedValue
+    private Long id;
+
+    @Lob
+    private String content;
+
+
+    private String ownerUsername;
+
+
+	/*
+	 * public void setOwnerUsername(String username) { // TODO Auto-generated method
+	 * stub
+	 * 
+	 * }
+	 * 
+	 * 
+	 * public void setContent(String content2) { // TODO Auto-generated method stub
+	 * 
+	 * }
+	 */
 }
