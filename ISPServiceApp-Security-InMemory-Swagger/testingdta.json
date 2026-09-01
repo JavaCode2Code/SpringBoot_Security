@@ -1,0 +1,17 @@
+//
+//"  POST http://localhost:8080/api/isp-subscribers"
+//
+//{
+//  "subscriberId": "SUB1001",
+//  "name": "Sateesh Kumar",
+//  "phoneNumber": "9876543210",
+//  "status": "ACTIVE"
+//}
+//
+//" POST http://localhost:8080/api/phone-subscriptions "
+//
+//{
+//  "phoneNumber": "9876543210",
+//  "subscriptionType": "PREPAID",
+//  "status": "ACTIVE"
+//}
